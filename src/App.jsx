@@ -13,6 +13,8 @@ import {useState} from "react";
  *    그러니 useState 에 파라미터 넣을 때 주의해라.
  *    만약 useState 초기값으로 함수 리턴값을 넣어야하면, 아예 그 함수 객체 또는 람다를 집어넣어라!!!
  *    이걸 함수 초기화 or '지연초기화'라고 한다.
+ * 참고: 크롬의 React Developer Tools 확장 프로그램 꼭 써라!
+ * https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi
  * ---
  * # 6강 ~
  */
