@@ -1,4 +1,6 @@
-export default function Input({type = 'text', text, id, ref, value, onChange, error}) {
+import {memo} from 'react';
+
+function Input({type = 'text', text, id, ref, value, onChange, error}) {
     return (
         <div>
             <label htmlFor={id} style={{display: 'inline-block', width: '80px'}}>{text}</label>
@@ -7,3 +9,5 @@ export default function Input({type = 'text', text, id, ref, value, onChange, er
         </div>
     )
 }
+
+export default memo(Input);
